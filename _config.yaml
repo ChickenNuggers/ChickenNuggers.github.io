@@ -1,1 +1,5 @@
 title: ChickenNuggers
+highlighter: pygments
+safe: true
+lsi: false
+source: .
