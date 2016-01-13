@@ -14,7 +14,7 @@ extensive About Me section. That is all.
 * [Alternate E-Mail](mailto:charlesh2016@usd402.com)
 * [GitHub](https://github.com/ChickenNuggers)
 
-# Projects <small>personal</small>
+# Projects <small>personal // unfinished</small>
 
  * [webhook-updater](https://github.com/AlissaSquared/webhook-deployer)
  * [lidentd](https://github.com/AlissaSquared/lidentd)
