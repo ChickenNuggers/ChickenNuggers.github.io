@@ -16,12 +16,9 @@ extensive About Me section. That is all.
 
 # Projects <small>personal // unfinished</small>
 
- * [webhook-updater](https://github.com/AlissaSquared/webhook-deployer)
- * [lidentd](https://github.com/AlissaSquared/lidentd)
  * [MoonScript](https://github.com/ChickenNuggers/moonscript)
  * [Moon Moon](https://github.com/ChickenNuggers/Moon-Moon)
  * [Astronomy](https://github.com/ChickenNuggers/Alchemy)
- * [blog-mdl](https://github.com/ChickenNuggers/blog-mdl)
  * [Alchemy](https://github.com/ChickenNuggers/Alchemy)
 
 ## Projects <small>carbonsrv</small>
