@@ -18,7 +18,7 @@ extensive About Me section. That is all.
 
  * [MoonScript](https://github.com/ChickenNuggers/moonscript)
  * [Moon Moon](https://github.com/ChickenNuggers/Moon-Moon)
- * [Astronomy](https://github.com/ChickenNuggers/Alchemy)
+ * [Astronomy](https://github.com/ChickenNuggers/Astronomy)
  * [Alchemy](https://github.com/ChickenNuggers/Alchemy)
 
 ## Projects <small>carbonsrv</small>
