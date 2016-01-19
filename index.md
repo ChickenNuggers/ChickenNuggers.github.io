@@ -14,7 +14,7 @@ extensive About Me section. That is all.
 * [Alternate E-Mail](mailto:charlesh2016@usd402.com)
 * [GitHub](https://github.com/ChickenNuggers)
 
-# Projects <small>personal // unfinished</small>
+# Projects <small>personal</small>
 
  * [MoonScript](https://github.com/ChickenNuggers/moonscript)
  * [Moon Moon](https://github.com/ChickenNuggers/Moon-Moon)
