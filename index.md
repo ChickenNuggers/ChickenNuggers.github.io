@@ -5,8 +5,10 @@ layout: base
 
 # About Me
 
-I'm a Lua programmer with no social skills who doesn't feel like writing an
-extensive About Me section. That is all.
+I'm a Lua and Python programmer who develops web and command line applications.
+As of recently, I've also been using MoonScript in my applications. I'm also
+a system administrator for [hashbang.sh](https://hashbang.sh) and my personal
+servers, as well as an IRC network manager for hashbang.sh.
 
 # Contact Me
 
