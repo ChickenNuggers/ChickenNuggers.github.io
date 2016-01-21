@@ -36,8 +36,11 @@ servers, as well as an IRC network manager for hashbang.sh.
 
 # Collaboration
 
-Feel free to ask me to help on stuff and I probably will. Pay me and I might
-even have an optimistic attitude about it.
+I'm an open source developer who works on projects when I find them beneficial
+to myself, such as when I'm using the software or I'm paid to contribute. I've
+adopted a policy that I'm not required to collaborate on someone out of my own
+free will, but if you find a way to make me interested, I'll gladly contribute
+to any project.
 
 ## Skills
 
