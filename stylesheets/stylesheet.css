@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box; }
 
+small {
+  font-variant: small-caps; }
+
 body {
   padding: 0;
   margin: 0;
