@@ -52,6 +52,7 @@ to any project.
 ## Languages
 
  * Lua
+ * MoonScript
  * Python
  * JavaScript
  * C
