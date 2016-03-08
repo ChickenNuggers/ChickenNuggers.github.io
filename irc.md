@@ -3,6 +3,15 @@ title: IRC Rules
 layout: base
 ---
 
+## Channel Administrators - #ChickenNuggers
+
+ * Ryan (LordRyan)
+ * Gerald (Gerald, KingGerald, Dreamated)
+ * Chris (Bell, Kirito, Chris)
+ * Dysgalt
+ * Lumi (Lumi, Keiran)
+ * vifino
+
 ## Rules for #ChickenNuggers on EsperNet
 
 1. Do not touch or startle the Cutie Biscuit
