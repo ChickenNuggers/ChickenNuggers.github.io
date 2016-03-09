@@ -20,3 +20,4 @@ layout: base
 3. Flag all NSFW content
 4. No topics relating to legal activities
 5. Keep sexual conversations in moderation
+6. Don't spam
