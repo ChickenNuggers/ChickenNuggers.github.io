@@ -18,6 +18,6 @@ layout: base
  * Gerald/Dreamated personally requests that no one touches him
 2. Follow all EsperNet charter rules and legal laws
 3. Flag all NSFW content
-4. No topics relating to legal activities
+4. No topics relating to illegal activities
 5. Keep sexual conversations in moderation
 6. Don't spam
