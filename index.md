@@ -74,3 +74,13 @@ to any project.
  * Skeleton
  * Material Design Lite
  * Polymer / Paper
+
+### Signature
+
+Below is the signature (format) I use when signing emails:
+
+```
+Ryan <ryan@hashbang.sh>
+Programmer :: Scripter :: Developer :: Administrator
+https://chickennuggers.github.io
+```
