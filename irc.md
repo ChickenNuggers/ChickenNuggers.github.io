@@ -6,7 +6,7 @@ layout: base
 ## Channel Administrators - #ChickenNuggers
 
  * Ryan (LordRyan)
- * Monkeyfish
+ * Dreamated (Gerald, SirLoser)
  * Chris (Bell, Kirito, Chris)
  * Dysgalt
  * Lumi (Lumi, Keiran)
