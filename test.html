@@ -1,0 +1,198 @@
+<!DOCTYPE html><!-- vim:set noet sts=0 sw=3 ts=3: -->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello World</title>
+		<script type="text/javascript" charset="utf-8" src="./smooth-scroll.min.js"></script>
+		<style type="text/css" media="screen">
+		* {
+			font-weight: 100;
+			box-sizing: border-box;
+			padding: 0px;
+			margin: 0px;
+			letter-spacing: 1.5px;
+			text-shadow: 0px 1px 2px black;
+		}
+		body {
+			margin: 0px;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			background-color: #373B44;
+			color: white;
+		}
+		section {
+			width: 100%;
+			padding: 0 7%;
+			display: table;
+			margin: 0;
+			max-width: none;
+			background-color: #373B44;
+			min-height: 100vh;
+		}
+		section:nth-of-type(2n) {
+			background-color: #FE4B74;
+		}
+		.content {
+			display: table-cell;
+			vertical-align: middle;
+		}
+		#home {
+			min-height: 95vh;
+		}
+		.center {
+			text-align: center;
+			width: 100%;
+		}
+		h1 {
+			font-size: 5.2em;
+			text-shadow: 0px 2px 4px black;
+			margin: 0px 4px;
+		}
+		h2 {
+			font-size: 1.8em;
+			margin: 10px 0px;
+		}
+		h3 {
+			font-size: 1.25em;
+			margin: 10px 0px;
+		}
+		h4 {
+			font-size: 1em;
+			margin: 10px 0px;
+		}
+		a {
+			color: #ddf;
+			text-decoration: none;
+			text-shadow: 0px 1px 2px black;
+			transition: all 0.75s ease-in;
+			-o-transition: all 0.75s ease-in;
+			-moz-transition: all 0.75s ease-in;
+			-webkit-transition: all 0.75s ease-in;
+		}
+		a:hover {
+			color: #4096ee;
+			cursor: default;
+			transition: all 0.5s ease-out;
+			-o-transition: all 0.5s ease-out;
+			-moz-transition: all 0.5s ease-out;
+			-webkit-transition: all 0.5s ease-out;
+		}
+		.social ul {
+			margin: 20px 0px;
+		}
+		.social ul li {
+			min-width; 40px;
+			padding: 0px 10px;
+			font-size: 1.5em;
+			display: inline;
+		}
+		#projects {
+			padding: 15%;
+		}
+		#projects ul {
+			margin: 15px 0px;
+		}
+		#projects h3 {
+			font-variant: small-caps;
+		}
+		p {
+			text-align: justify;
+			width: 75%;
+			margin: auto;
+			font-size: 1.1em;
+			padding: 15px 0px;
+		}
+		</style>
+	</head>
+	<body>
+		<section id="home">
+			<div class="content">
+				<div class="center">
+					<h1>ChickenNuggers</h1>
+					<h2>Charles Heywood :: Software Developer</h2>
+					<h4>System Administrator for <a href="https://hashbang.sh">#!</a></h4>
+				</div>
+				<div class="center social">
+					<ul>
+						<li><a href="https://github.com/ChickenNuggers">GitHub</a></li>
+						<li><a href="mailto:charles@hashbang.sh">E-Mail</a></li>
+					</ul>
+				</div>
+				<div class="center">
+					<h2>
+						<a data-scroll href="#projects">Projects</a>
+						&mdash;
+						<a data-scroll href="#aboutme">About Me</a>
+					</h2>
+				</div>
+			</div>
+		</section>
+		<section id="projects">
+			<div class="content">
+				<div class="center">
+					<h2>Projects</h2>
+					<h3>Personal</h3>
+				</div>
+				<ul class="projects">
+					<li><a href="https://github.com/ChickenNuggers/FusionScript">FusionScript</a> // C++</li>
+					<li><a href="https://github.com/leafo/moonscript">MoonScript</a> // MoonScript</li>
+					<li><a href="https://github.com/wiseguiz/Moon-Moon">Moon Moon</a> // MoonScript</li>
+					<li><a href="https://github.com/ChickenNuggers/Astronomy">Astronomy</a> // MoonScript</li>
+					<li><a href="https://github.com/ChickenNuggers/Alchemy">Alchemy</a> // Python</li>
+					<li><a href="https://github.com/ChickenNuggers/lidentd">lidentd</a> // Lua</li>
+				</ul>
+				<div class="center">
+					<h3>carbonsrv</h3>
+				</div>
+				<ul class="projects">
+					<li><a href="https://github.com/carbonsrv">Carbon Project Page</a> // Go</li>
+					<li><a href="https://github.com/carbonsrv/cpaste">CPaste</a> // Lua</li>
+					<li><a href="https://github.com/carbonsrv/cblargh">CBlargh</a> // Lua</li>
+				</ul>
+				<div class="center">
+					<h3>Hashbang, Inc.</h3>
+				</div>
+				<ul class="projects">
+					<li><a href="https://github.com/hashbang/hashbang.sh">Hashbang Website</a> // Python, Shell</li>
+					<li><a href="https://github.com/hashbang/dotfiles">User Dotfiles</a> // POSIX Shell</li>
+					<li><a href="https://github.com/hashbang/shell-etc">Server Configuration</a> // POSIX Shell</li>
+				</ul>
+				<div class="center">
+					<h3>Miscellaneous</h3>
+				</div>
+				<ul class="projects">
+					<li><a href="https://github.com/Zarthus/lobby-utility-bot">Notaru</a> // Ruby</li>
+					<li><a href="https://github.com/lrvick/rant">Rant</a> // Python</li>
+					<li><a href="https://github.com/Liamraystanley/Code">Code IRC Bot</a> // Python</li>
+					<li><a href="https://github.com/daurnimator/lua-http">lua-http</a> // Lua</li>
+					<li><a href="https://github.com/mirrexagon/lua-irc-engine">Lua IRC Engine</a> // Lua</li>
+				</ul>
+			</div>
+		</section>
+		<section id="aboutme">
+			<div class="content center">
+				<h2>About Me</h2>
+				<p>
+					Legally, my name is Charles; however, I prefer the name Ryan. I am a self-taught
+					developer (who has taken several tutorials just to sharpen-up on skills) and I
+					program both as a job and a hobby. I also enjoy playing games, listening to music
+					while relaxing, and watching YouTube videos. I'm open to conversation if you just
+					want to reach out &mdash; as long as it's not in real life. I'm also very bad
+					at writing blog posts and "About Me"s if it isn't obvious.
+				</p>
+				<h2>Collaboration</h2>
+				<p>
+					I'm an open source developer who works on projects when I find them beneficial
+					to myself, such as when I'm using the software or I'm paid to contribute. I've
+					adopted a policy that I am not required to collaborate with someone against my
+					free will, but if you find a way to make me interested, I'll gladly contribute
+					to any project.
+				</p>
+			</div>
+		</section>
+		<script type="text/javascript" charset="utf-8">
+			smoothScroll.init({
+				easing: 'easeInOutCubic'
+			});
+		</script>
+	</body>
+</html>
