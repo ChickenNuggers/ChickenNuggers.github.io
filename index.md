@@ -18,24 +18,24 @@ servers, as well as an IRC network manager for hashbang.sh.
 
 # Projects <small>personal</small>
 
- * [FusionScript](https;//github.com/ChickenNuggers/FusionScript)
- * [MoonScript](https://github.com/ChickenNuggers/moonscript)
- * [Moon Moon](https://github.com/ChickenNuggers/Moon-Moon)
- * [Astronomy](https://github.com/ChickenNuggers/Astronomy)
- * [Alchemy](https://github.com/ChickenNuggers/Alchemy)
- * [lidentd](https://github.com/ChickenNuggers/lidentd)
+ * [FusionScript](https;//github.com/ChickenNuggers/FusionScript) // C++
+ * [MoonScript](https://github.com/ChickenNuggers/moonscript) // MoonScript
+ * [Moon Moon](https://github.com/ChickenNuggers/Moon-Moon) // MoonScript
+ * [Astronomy](https://github.com/ChickenNuggers/Astronomy) // MoonScript
+ * [Alchemy](https://github.com/ChickenNuggers/Alchemy) // Python
+ * [lidentd](https://github.com/ChickenNuggers/lidentd) // Lua
 
 ## Projects <small>carbonsrv</small>
 
- * [Carbon Project Page](https://github.com/carbonsrv)
- * [CPaste](https://github.com/carbonsrv/cpaste)
- * [CBlargh](https://github.com/carbonsrv/cblargh)
+ * [Carbon Project Page](https://github.com/carbonsrv) // Go
+ * [CPaste](https://github.com/carbonsrv/cpaste) // Lua
+ * [CBlargh](https://github.com/carbonsrv/cblargh) // Lua
 
 ## Projects <small>hashbang</small>
 
- * [Hashbang Website](https://hashbang.sh)
- * [User Dotfiles](https://github.com/hashbang/dotfiles)
- * [Server Configuration](https://github.com/hashbang/shell-etc)
+ * [Hashbang Website](https://hashbang.sh) // Python
+ * [User Dotfiles](https://github.com/hashbang/dotfiles) // POSIX Shell
+ * [Server Configuration](https://github.com/hashbang/shell-etc) // POSIX Shell
 
 # Collaboration
 
