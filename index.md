@@ -13,15 +13,17 @@ servers, as well as an IRC network manager for hashbang.sh.
 # Contact Me
 
 * [E-Mail](mailto:charles@hashbang.sh)
-* [Alternate E-Mail](mailto:charlesh2016@usd402.com)
+* [Alternate E-Mail](mailto:ryan@hashbang.sh)
 * [GitHub](https://github.com/ChickenNuggers)
 
 # Projects <small>personal</small>
 
+ * [FusionScript](https;//github.com/ChickenNuggers/FusionScript)
  * [MoonScript](https://github.com/ChickenNuggers/moonscript)
  * [Moon Moon](https://github.com/ChickenNuggers/Moon-Moon)
  * [Astronomy](https://github.com/ChickenNuggers/Astronomy)
  * [Alchemy](https://github.com/ChickenNuggers/Alchemy)
+ * [lidentd](https://github.com/ChickenNuggers/lidentd)
 
 ## Projects <small>carbonsrv</small>
 
@@ -33,6 +35,7 @@ servers, as well as an IRC network manager for hashbang.sh.
 
  * [Hashbang Website](https://hashbang.sh)
  * [User Dotfiles](https://github.com/hashbang/dotfiles)
+ * [Server Configuration](https://github.com/hashbang/shell-etc)
 
 # Collaboration
 
@@ -44,7 +47,7 @@ to any project.
 
 ## Skills
 
- * Software and Application Design
+ * Software, Application, and API Design
  * UNIX-Based System Administration
  * Software Debugging
  * Web Frameworks
@@ -56,6 +59,7 @@ to any project.
  * Python
  * JavaScript
  * C
+ * C++
  * Bash
 
 ## Markup Frameworks
@@ -74,13 +78,3 @@ to any project.
  * Skeleton
  * Material Design Lite
  * Polymer / Paper
-
-### Signature
-
-Below is the signature (format) I use when signing emails:
-
-```
-Ryan <ryan@hashbang.sh>
-Programmer :: Scripter :: Developer :: Administrator
-https://chickennuggers.github.io
-```
