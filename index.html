@@ -114,21 +114,25 @@
 		.social ul li {
 			min-width; 40px;
 			padding: 0px 10px;
-			font-size: 1.5em;
+			font-size: 1.45em;
 			display: inline;
 		}
-		#projects {
+		.social .big ul li {
+			font-size: 1.5em;
+		}
+		#projects, #lsp {
 			padding: 0px 15%;
 		}
-		#projects ul {
-			margin: 15px 0px;
+		#projects ul, #lsp ul {
+			list-style-type: none;
+			margin: 16px 8px;
 		}
 		#projects h3 {
 			font-variant: small-caps;
 		}
 		p {
 			text-align: justify;
-			width: 75%;
+			width: 85%;
 			margin: auto;
 			font-size: 1.1em;
 			padding: 15px 0px;
@@ -146,7 +150,7 @@
 					<h2>Charles Heywood :: Software Developer</h2>
 					<h4>System Administrator for <a href="https://hashbang.sh">#!</a></h4>
 				</div>
-				<div class="center social">
+				<div class="center social big">
 					<ul>
 						<li><a href="https://github.com/ChickenNuggers">GitHub</a></li>
 						<li><a href="mailto:charles@hashbang.sh">E-Mail</a></li>
@@ -154,13 +158,108 @@
 				</div>
 				<div class="center">
 					<h2>
+						<a data-scroll href="#lsp">LS Projects</a>
+						&middot;
 						<a data-scroll href="#projects">Projects</a>
-						&mdash;
+						&middot;
 						<a data-scroll href="#aboutme">About Me</a>
-						&mdash;
+						&middot;
 						<a data-scroll href="#technical">Skills</a>
 					</h2>
 				</div>
+			</div>
+		</section>
+		<section id="lsp">
+			<div class="content">
+				<h1 class="center">Large Scale Projects</h1>
+				<p>
+					Below are some projects that I've dedicated a bit of time working
+					on; I've spent no more than six months on the projects from start
+					to finish. The projects might not be complete but they are some of
+					the best achievements I can list.
+				</p>
+				<h2><a href="/FusionScript">FusionScript</a></h2>
+				<p>
+					FusionScript is a C-like language that (at the moment) compiles
+					to Lua code; the project also includes a considerably large set
+					of modules included to the additional standard library. The main
+					inspiration from the language is Python's generators - a large
+					intended use of FusionScript is the asynchronous functions which
+					can be used with the `iterable` library. Overall the language
+					works best with minimal callbacks, based on coroutines and data
+					streams. Some related repositories are listed below.
+				</p>
+				<div class="center social">
+					<ul>
+						<li><a href="https://github.com/ChickenNuggers/FusionScript">FusionScript</a></li>
+						&middot;
+						<li><a href="https://github.com/ChickenNuggers/FusionScript-vim">VIM Editor Support</a></li>
+						&middot;
+						<li><a href="https://github.com/ChickenNuggers/FusionScript-boilerplate">Boilerplate Project</a></li>
+					</ul>
+				</div>
+				<p>
+					I've worked on FusionScript for several months but only during
+					December 2016 have I been able to get a working parser; previous
+					attempts included a failed LPeg lexer and a non-working C++
+					tokenizer. The version of the parser as of December 2016 is
+					implemented using LPeg. The language itself ships with some
+					additional modules; a class library, a library for functional
+					routines, and a library for iterators. They each are built as an
+					extension to the language and need to be required to be used
+					when using the stock Lua VM.
+				</p>
+				<p>
+					The language is open to changes; however, because of the current
+					version, code written in FusionScript is likely to change from
+					the current version to FusionScript 1.0.0. Each change that is
+					not compatible with the previous version, until version 1.0+,
+					will be represented by an increase in the subversion. This will
+					also include a list of backwards incompatible changes with the
+					commit logs and release messages that describe how to deal with
+					the changes.
+				</p>
+				<h2><a href="https://hashbang.sh">Hashbang</a></h2>
+				<p>
+					Hashbang, Inc. is an IRC-based international educational network
+					for hackers, developers, and Linux users. I personally volunteer
+					as a system administrator and I also help review changes to the
+					inner infrastructure. I've been with Hashbang, Inc. since May
+					2015 and have since contributed largely to both the repositories
+					and unrecorded administration of the servers. Below are some
+					related repositories that I have contributed to:
+				</p>
+				<div class="center social">
+					<ul>
+						<li><a href="https://github.com/hashbang/hashbang.sh">Hashbang Website</a></li>
+						&middot;
+						<li><a href="https://github.com/hashbang/dotfiles">User Dotfiles</a></li>
+						&middot;
+						<li><a href="https://github.com/hashbang/shell-etc">Server Configuration</a></li>
+					</ul>
+				</div>
+				<p>
+					Currently, registration can be done in any POSIX compatible
+					environment with <code>ssh</code>, <code>curl</code>, or the
+					<code>busybox</code> utility set. It's also recommended to have
+					<code>gpg</code> installed for verification of the registration
+					shell script. To register, run the command: <code>sh &lt;(curl
+					https://hashbang.sh | gpg)</code>. After registration, you will
+					be put in a <a href="https://tmux.github.io/">tmux</a> session
+					running <a href="https://weechat.org/">weechat</a> (an IRC
+					client), <a href="http://www.mutt.org">Mutt</a> (a mail client),
+					and (by default) a bash shell. From there, feel free to do
+					(almost) whatever.
+				</p>
+				<p>
+					The entire setup is almost entirely reproducible and submitting
+					a pull request or adding issues is a great way to contribute.
+					Almost any repository in <a href="https://github.com/hashbang/">
+					the Hashbang GitHub organization</a> can be modified to change
+					items on the server. Additionally, after enough support, a user
+					can become an administrator themselves to help further improve
+					the #! infrastructure.
+				</p>
 			</div>
 		</section>
 		<section id="projects">
@@ -169,7 +268,7 @@
 					<h2>Projects</h2>
 					<h3>Personal</h3>
 				</div>
-				<ul class="projects">
+				<ul>
 					<li><a href="https://github.com/ChickenNuggers/FusionScript">FusionScript</a> // Lua</li>
 					<li><a href="https://github.com/leafo/moonscript">MoonScript</a> // MoonScript</li>
 					<li><a href="https://github.com/wiseguiz/Moon-Moon">Moon Moon</a> // MoonScript</li>
@@ -180,7 +279,7 @@
 				<div class="center">
 					<h3>carbonsrv</h3>
 				</div>
-				<ul class="projects">
+				<ul>
 					<li><a href="https://github.com/carbonsrv">Carbon Project Page</a> // Go</li>
 					<li><a href="https://github.com/carbonsrv/cpaste">CPaste</a> // Lua</li>
 					<li><a href="https://github.com/carbonsrv/cblargh">CBlargh</a> // Lua</li>
@@ -188,7 +287,7 @@
 				<div class="center">
 					<h3>Hashbang, Inc.</h3>
 				</div>
-				<ul class="projects">
+				<ul>
 					<li><a href="https://github.com/hashbang/hashbang.sh">Hashbang Website</a> // Python, Shell</li>
 					<li><a href="https://github.com/hashbang/dotfiles">User Dotfiles</a> // POSIX Shell</li>
 					<li><a href="https://github.com/hashbang/shell-etc">Server Configuration</a> // POSIX Shell</li>
@@ -196,7 +295,7 @@
 				<div class="center">
 					<h3>Miscellaneous</h3>
 				</div>
-				<ul class="projects">
+				<ul>
 					<li><a href="https://github.com/Zarthus/lobby-utility-bot">Notaru</a> // Ruby</li>
 					<li><a href="https://github.com/lrvick/rant">Rant</a> // Python</li>
 					<li><a href="https://github.com/Liamraystanley/Code">Code IRC Bot</a> // Python</li>
